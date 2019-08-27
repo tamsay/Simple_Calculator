@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainDiv">
+            <h1>SIMPLE CALCULATOR</h1>
+           
+            <div id="numberInput">
+                <input type="number" placeholder="First Number" required>
+                <input type="number" placeholder="Second Number" required>
+                <button id="resetBtn">RESET</button>
+            </div>            
+        
+            <div id="operatorList">
+                <button id="addBtn">ADD (+)</button>
+                <button id="subtractBtn">SUBTRACT (-)</button>
+                <button id="multiplyBtn">MULTIPLY (X)</button>
+                <button id="divideBtn">DIVIDE (/)</button>
+                <button id="modulusBtn">MOD (%)</button>
+            </div>
+        
+            <div id="resultDisplay">
+                <span>Result: </span><span id="result"></span>
+            </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
